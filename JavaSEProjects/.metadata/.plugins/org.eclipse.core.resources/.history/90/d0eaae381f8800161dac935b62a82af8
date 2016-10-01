@@ -1,0 +1,20 @@
+package com.yuchen.leetcodetrainingOct;
+/*
+ * This test is to make sure whether a LinkedList assigned to another linkedlist can affect each otehr 
+ * if one of them is changed
+ */
+public class TestForLinkedList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void printLinkedList(ListNode node){
+		while(node!=null){
+			System.out.println(node.val);
+			node = node.next;
+		}
+	}
+
+}

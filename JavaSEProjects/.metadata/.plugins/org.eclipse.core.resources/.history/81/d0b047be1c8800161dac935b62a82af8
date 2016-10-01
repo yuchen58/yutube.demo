@@ -1,0 +1,15 @@
+package com.yuchen.leetcodetrainingOct;
+
+public class RemoveDuplicates01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public ListNode deleteDuplicates(ListNode head){
+		
+		
+	}
+
+}

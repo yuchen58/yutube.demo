@@ -1,10 +1,31 @@
 package com.yuchen.leetcodetrainingOct;
 
+import java.util.HashSet;
+
 public class RemoveDuplicates01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+	}
+	
+	public ListNode deleteDuplicates(ListNode head){
+		ListNode newHead = head;
+		while(newHead != null){
+			if(newHead.next == null){
+				break;
+			}
+			// this step is the main step for deleting a listnode
+			if(newHead.val == newHead.next.val){
+				newHead.next = newHead.next.next;
+				
+			}else{
+				newHead = newHead.next;
+			}
+		}
+		
+		return head;
+		
 	}
 
 }
