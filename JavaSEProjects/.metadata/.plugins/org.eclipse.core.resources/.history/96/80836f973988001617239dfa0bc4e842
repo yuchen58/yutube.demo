@@ -1,0 +1,20 @@
+package com.yuchen.leetcodetrainingOct;
+
+import java.util.HashSet;
+
+public class FirstUniqueCharInString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public int firstUniqChar(String s){
+		HashSet<Integer> set = new HashSet<Integer>();
+		
+		for(int i =0;i<s.length();i++){
+			
+		}
+		return 0;
+	}
+}
