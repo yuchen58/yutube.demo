@@ -1,0 +1,21 @@
+package com.yuchen.leetcodetrainingOct;
+
+import java.util.List;
+
+public class Interview01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+	// This method takes: 1. a list of course codes the student completed, 2. A list of course
+	// codes required for the degree  
+	// result : a list of course codes the student still needs to complete 
+	public static List<String> getCourses(List<String> compCourses, List<String> allCourses){
+		return allCourses;
+		
+	}
+
+}

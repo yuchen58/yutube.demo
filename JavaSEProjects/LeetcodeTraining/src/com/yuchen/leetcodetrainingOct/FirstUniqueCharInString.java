@@ -2,7 +2,6 @@ package com.yuchen.leetcodetrainingOct;
 /*
  * alphabet method can solve this problem easily
  */
-import java.util.HashSet;
 
 public class FirstUniqueCharInString {
 
